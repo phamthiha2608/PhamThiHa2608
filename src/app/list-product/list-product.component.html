@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            }
+
+            td, th {
+            text-align: left;
+            padding: 8px;
+            border-top:1px solid #dddddd;
+            border-bottom:1px solid #dddddd;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+          List Product
+        </div>
+        <div class="card-body">
+            <form class="form-horizontal" action="/action_page.php">
+                <div class="form-group row">
+                    <label class="control-label col-sm-2" for="fil">Filter by:</label>
+                    <div class="col-sm-10">
+                        <input type="fil" class="form-inline" id="fil">
+                    </div>
+                </div>
+            </form>
+            <h3><b>Filter by:</b></h3><br>
+            <table>
+                <tr>
+                    <th><button class="btn btn-primary">Hien image</button></th>
+                    <th>Poduct</th>
+                    <th>Code</th>
+                    <th>Available</th>
+                    <th>Price</th>
+                    <th>5 Star Rating</th>
+                </tr>
+                <tr>
+                    <td><img src="assets\h1.jpg" width="80" height="60"></td>
+                    <td>Leaf Rake</td>
+                    <td>gdn-0011</td>
+                    <td>March 19,2016</td>
+                    <td>$19.95</td>
+                    <td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+                </tr>
+                <tr>
+                    <td><img src="assets\h2.jpg" width="80" height="60"></td>
+                    <td>Garden Cart</td>
+                    <td>gdn-0023</td>
+                    <td>March 18,2016</td>
+                    <td>$32.99</td>
+                    <td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+                </tr>
+                <tr>
+                    <td><img src="assets\h3.jpg" width="80" height="60"></td>
+                    <td>Hammer</td>
+                    <td>tbx-0048</td>
+                    <td>May 21,2016</td>
+                    <td>$8.90</td>
+                    <td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+                </tr>
+                <tr>
+                    <td><img src="assets\h4.jpg" width="80" height="60"></td>
+                    <td>Saw</td>
+                    <td>tbx-0022</td>
+                    <td>May 15,2016</td>
+                    <td>$11.55</td>
+                    <td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+                </tr>
+                <tr>
+                    <td><img src="assets\h5.jpg" width="80" height="60"></td>
+                    <td>Video Game Controller</td>
+                    <td>gmg-0042</td>
+                    <td>October 15,2015</td>
+                    <td>$35.95</td>
+                    <td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+                </tr>
+            </table>
+        </div>
+        <div class="card-footer">
+            <i class="fa fa-arrow-left"></i> Back
+        </div>
+    </div>
+</body>
+</html>
